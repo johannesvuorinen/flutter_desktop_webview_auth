@@ -69,7 +69,7 @@ namespace {
 		HWND hWndWebView;
 
 		// The current Flutter view.
-		unique_ptr<FlutterView> view_;
+		FlutterView* view_;
 
 		// Pointer to the Flutter MethodChannel.
 		unique_ptr<MethodChannel<EncodableValue>> channel_;
